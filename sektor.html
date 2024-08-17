@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+
+<html>
+    
+<head>
+        
+<title>RELOJ SEKTOR</title>
+        
+<meta charset="UTF-8">
+        
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+<style>
+
+
+/*cuerpo*/
+
+* 
+{
+    	margin: 0;
+    
+	padding: 0;
+    
+	box-sizing: border-box;
+    
+	font-family: 'Baloo 2', cursive;
+
+	}
+
+
+body 
+{
+    
+	display: flex;
+    
+	align-items: center;
+    
+	justify-content: center;
+    
+	min-height: 100vh;
+    
+	background-image:url('666.JPG');
+ 
+	background-repeat: repeat;
+ 
+	background-size: 150px;
+ 
+	  
+	flex-wrap: wrap;
+	
+}
+
+/*contenedor principal*/
+
+.card 
+{
+   
+	position: relative;
+    
+	width: 500px;
+    
+	height: 620px;
+    
+	Background-color:BLACK;
+   
+	border: 1px solid red;
+box-shadow:red -10px 10px 30px,red 10px -10px 30px ;
+ 
+ 
+
+border-radius: 10px;
+    
+overflow: hidden;
+    transition: .5s;
+    
+margin: 15px 20px;
+}
+
+
+/*
+.card:hover {
+   
+ box-shadow: 0 5px 10px rgba(0,0,0,1);
+    
+transform: translateY(-20px);
+}*/
+
+
+/*contenedor de imágen*/
+
+.card .head {
+    
+	height: 100px;
+    
+	width: 100%;
+    
+	position: relative;
+}
+
+
+
+
+
+
+/* apartado texto animado*/
+
+
+.text-animation 
+{
+    	position:relative ;
+    
+	left:px;
+    top:px ;
+    
+	width:;
+    
+	margin: 0 auto;
+    
+	border-right: 2px solid aqua;
+    
+	font-size: 85px;
+    Color:white;
+    
+	text-shadow:red -5px 3px ;
+    
+	text-align: center ;
+    
+	white-space: nowrap ;
+    
+	overflow: hidden ; 
+    
+	transform: translateY (-50%);
+    	animation:typewriter 6s steps(50)infinite,
+    
+	blinkTextCursor 500ms steps(40) 	infinite normal;
+}
+
+ 
+@keyframes typewriter 
+{
+    from 
+{
+        width: 0;
+    }
+    
+to {
+        width:450px ;
+    }
+}
+
+@keyframes blinkTextCursor 
+{
+    from {
+        border-right-color:red;
+    }
+    
+to {
+        border-right-color: transparent ;
+    }
+}
+
+
+
+/*estilo del reloj*/
+
+
+
+circulo
+{
+ 	height:400px;
+   	width: 400px;
+   
+	background:BLACK;
+   
+	border-radius: 100px;
+   
+   
+	margin: 50px;
+}
+
+
+.center 
+{	
+text-align: center 
+	;
+
+font-family: "Consolas", monospace;
+   
+	 font-size: 110px;
+    color:WHITE;
+    text-shadow: red -5PX 3PX;
+    padding: 30px 0
+    text-align: center;
+}
+H2{
+color:red;
+    text-shadow: 0 0 0.2em white, 0 0 0.2em red;
+}
+
+h1{
+	 color:WHITE;
+	text-shadow: red -2PX 2PX 1PX;
+
+	font-size: 20px;
+
+	
+text-align: center 
+	
+	
+
+}
+
+.GUARDIAS{ 
+border:1px RED SOLID;
+box-shadow:red -1px 1px 5px,red 1px -1px 5px ;
+ 
+text-shadow: red -2PX 2PX 1PX;
+ 
+background:BLACK;
+ 
+
+position:relative ;
+    
+	left:190px;
+    top:px ;
+  
+
+text-align: center ;
+ 
+ align: center ;
+
+BORDER-RADIUS: 5PX;
+WIDTH:100PX;
+
+padding:5px;
+margin: 10px;
+
+TEXT-DECORATION:NONE;
+   
+ }
+
+
+.GUARDIAS:hover {
+   
+ box-shadow: 0 5px 10px rgba(0,0,0,1);
+    
+transform: translateY(-5px);
+}
+A{ 
+
+ font-size: 20px;
+COLOR:WHITE;
+TEXT-DECORATION:NONE;
+}
+
+
+</style>
+
+<script>function printTime() {
+    
+    var d = new Date();
+    var hours = d.getHours();
+    var mins = d.getMinutes();
+    var secs = d.getSeconds();
+    
+if(hours < 10) 
+{ hours = '0' + hours; } 
+if(mins < 10) 
+{ mins = '0' + mins; } 
+if(secs < 10) 
+{ secs = '0' + secs; }
+    
+    document.getElementById("tiempo").innerHTML = hours+":"+mins+":"+secs;
+}
+setInterval(printTime, 1000);
+        
+    </script>
+
+    </head>
+    <body>
+    <div class="card">
+        <div class="head">
+            
+            
+        
+        
+            
+            
+            
+            
+            
+            <div id="circulo">
+          <div id="tiempo" class="center"
+          >
+            
+          </div>
+          <h2 class="text-animation">PERISUR</h2>
+          
+<a href="https://ibb.co/W6kLCdz"><img width="100%" src="666.JPG" alt="SEKTOR" border="0"></a>
+          
+        
+</div>
+
+
+
+   <h1>JEFA DE TURNO
+</h1>
+   
+ <h1>CLAUDIA ISABEL GARCIA
+DOMINGUEZ 7736
+</h1>
+     
+            
+            
+       
+ 
+<div class="GUARDIAS"
+>
+
+
+   
+ <a href="GUARDIAS.HTML">GRUPOS</a>
+     
+            
+            
+       
+ </div>
+            
+        
+        
+   
+ </div>
+        
+    
+</body>
+
+</html>
